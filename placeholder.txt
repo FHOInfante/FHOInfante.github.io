@@ -1,0 +1,21 @@
+
+    <script>
+        // for selecting any of the 4 buttons
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all left buttons
+            var leftButtons = document.querySelectorAll(".left-buttons input[type='button']");
+
+            // Add click event listener to each left button
+            leftButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    // Remove 'selected' class from all buttons
+                    leftButtons.forEach(function (btn) {
+                        btn.classList.remove("selected");
+                    });
+
+                    // Add 'selected' class to the clicked button
+                    button.classList.add("selected");
+                });
+            });
+        });
+    </script>
