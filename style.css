@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-image: url(website-photos/webBG.jpg);
+    background-repeat: no-repeat;
     margin: 0;
 }
 
@@ -50,7 +51,7 @@ nav li {
 
 section .home-intro p{
     border: 2px solid rgb(228, 148, 73);
-    background: none;
+    background: rgb(255, 255, 255);
     box-shadow: 5px 5px rgb(185, 121, 61);
 }
 
@@ -73,6 +74,7 @@ section .home-intro h1{
 
 .profile-photo { /* the styling of my photo */
     border: 2px solid rgb(228, 148, 73);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 5px 5px rgb(185, 121, 61);
     margin-right: 30px; 
@@ -111,6 +113,7 @@ section .about-content p{
     border-radius: 15px;
     padding: 10px 10px;
     box-shadow: 5px 5px rgb(185, 121, 61);
+    background: rgb(255, 255, 255);
 }
 
 section .about-content h1,
@@ -126,6 +129,7 @@ h3{
     padding: 5px;
     border-radius: 10px;
     box-shadow: 5px 5px rgb(185, 121, 61);
+    background: rgb(255, 255, 255);
 }
 
 .about-content{
@@ -140,7 +144,7 @@ img{
 }
 
 /* Breakpoint for Smaller Screens */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
     .about-me {
         flex-direction: column-reverse;
         align-items: center;
@@ -164,6 +168,23 @@ img{
         margin-right: 0px;
         margin-bottom: 35px;
         max-width: 80%; 
+    }
+
+    .project-item{
+        align-items: center;
+        justify-content: center;
+        display:flex;
+        flex-flow: wrap column-reverse;
+    }
+
+    .project-name{
+        margin-top: 20px;
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    .preview-photo{
+        scale: 0.
     }
 }
 
