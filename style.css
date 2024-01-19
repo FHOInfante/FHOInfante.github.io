@@ -4,55 +4,82 @@ body {
     margin: 0;
 }
 
-nav a {
-    transition: background-color 0.3s, color 0.3s;
+
+/* Navigation CSS */
+nav{
+    background: rgb(33, 29, 29)
 }
 
-ul { /* the list the navigation is on */
+nav a {
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    background: solid rgb(33, 29, 29);
+    color: rgb(255, 255, 255);
+    font-family: alternate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: #504f4f;
+}
+
+nav ul { 
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li { /* for positioning the navigation stuff */
+nav li { 
     display: inline-block;
 }
 
-a { /* the navigation stuff */
-    display: block;
-    color: white;
-    font-family: alternate;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-a:hover { /* changes the nav stuff when hovering */
-    background-color: #ddd;
-    color: black;
-}
-
-.content { /* container holding the photo and intro stuff */
+/* Home CSS */
+.home { 
     margin-top: 22px;
     display: flex;
     align-items: center;
     padding: 20px;
     justify-content: center;
+    font-family: alternate;
+    
+}
+
+section .home-intro p{
+    border: 2px solid rgb(228, 148, 73);
+    background: none;
+    box-shadow: 5px 5px rgb(185, 121, 61);
+}
+
+section .home-intro h1{
+    background: rgb(228, 148, 73);
+    
+}
+
+.home-text{
+    padding: 15px 15px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+.home-text a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .profile-photo { /* the styling of my photo */
     border: 2px solid rgb(228, 148, 73);
     border-radius: 10px;
+    box-shadow: 5px 5px rgb(185, 121, 61);
     margin-right: 30px; 
     padding: 5px;
 }
 
-
-.home-content{
-    font-family: alternate;
-}
-
-
+/* Footer CSS */
 .footertxt{
     text-align: center;
 }
@@ -66,8 +93,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 6%;
 }
 
+/* About Me CSS */
 .about-me{
     display: flex;
     justify-content: space-evenly;
@@ -77,17 +106,111 @@ footer {
     font-family: alternate;
 }
 
+section .about-content p{
+    border:2px solid rgb(228, 148, 73);
+    border-radius: 15px;
+    padding: 10px 10px;
+    box-shadow: 5px 5px rgb(185, 121, 61);
+}
+
+section .about-content h1,
+h3{
+    background:rgb(228, 148, 73);
+    border-radius: 15px;
+    padding: 10px 10px;
+    max-width: 130px;
+}
+
 .about-photo{
     border: 2px solid rgb(228, 148, 73);
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 5px 5px rgb(185, 121, 61);
 }
 
 .about-content{
     font-size: 20px 70%;
+    margin-right: 20px;
+    text-align: justify;
 }
 
 img{
     width: 350px;
     height: 450px;
+}
+
+/* Breakpoint for Smaller Screens */
+@media only screen and (max-width: 640px) {
+    .about-me {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-content,
+    .about-photo {
+        margin-right: 0px;
+        margin-bottom: 60px;
+        max-width: 80%; 
+    }
+
+    .home{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px;
+    }
+
+    .home-intro,
+    .profile-photo{
+        margin-right: 0px;
+        margin-bottom: 35px;
+        max-width: 80%; 
+    }
+}
+
+/* Portfolio CSS */
+
+.project-item {
+    scale: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    background: rgb(228, 148, 73);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(185, 121, 61);
+}
+
+.project-name {
+    margin-right: 20px; 
+}
+
+.preview-photo {
+    border-radius: 10px;
+    width: 150px; 
+    height: auto;
+    box-shadow: 5px 5px rgb(168, 166, 166);
+}
+
+.projects{
+    display: block;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 50px 100px;
+}
+
+.projects a{
+    font-size: 35px;
+    font-family: alternate;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.portfolio-head{
+    font-family: alternate;
+    margin-left: 50px;
 }
