@@ -1,34 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francis Homer Infante</title>
     <link rel="stylesheet" href="style.css">
-    <nav>
-        <ul>
-            <li><a href="index.infantewebsite.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="https://github.com/FHOInfante" target="_blank">Github</a></li>
-            <li><a href="https://www.facebook.com/francishomer.infante/" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/homaygods/" target="_blank">Instagram</a></li>
-        </ul>
-    </nav>
 </head>
-<body>
-    <h1 class="portfolio-head slide-in-top">Previous Projects</h1>
-    <ul class="projects">
-        <li>
-            <div class="project-item slide-in-top">
-                <a href="https://github.com/FHOInfante/Chibogers-The-Foodpocalypes" 
-                class="project-name" target="_blank">Chibogers: The Foodpocalypse</a>
-                <img src="website-photos/Chibogers-Preview.png" alt="Chibogers Preview" class="preview-photo">
+<body class="page-portfolio">
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a class="brand" href="index.infantewebsite.html">Francis Homer Infante</a>
+            <ul>
+                <li><a href="index.infantewebsite.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://github.com/FHOInfante" target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li><a href="https://www.facebook.com/francishomer.infante/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://www.instagram.com/homaygods/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Portfolio</p>
+            <h1 class="portfolio-head page-title slide-in-top">Previous Projects</h1>
+            <p class="page-description">
+                A more flexible project layout with room for additional work, prototypes, and future class outputs.
+            </p>
+        </section>
+
+        <section class="content-panel" id="projects-grid">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Project gallery</h2>
+                </div>
+                <p>
+                    The first card is the current project preview. The remaining cards act as modern placeholders so new work can be added without redesigning the page.
+                </p>
             </div>
-        </li>
-    </ul>
-    
+
+            <div class="project-grid">
+                <article class="project-card project-card--featured slide-in-top">
+                    <div class="project-visual">
+                        <img src="website-photos/Chibogers-Preview.png" alt="Chibogers preview">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-tags">
+                            <span>Featured</span>
+                            <span>Game project</span>
+                            <span>GitHub repo</span>
+                        </div>
+                        <h3>Chibogers: The Foodpocalypse</h3>
+                        <p>
+                            The main project in the portfolio with a preview image, project summary, and direct repository link.
+                        </p>
+                        <a class="button button-primary button-small" href="https://github.com/FHOInfante/Chibogers-The-Foodpocalypes" target="_blank" rel="noopener noreferrer">Open Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card project-card--placeholder slide-in-top">
+                    <div class="project-visual project-visual--pattern">02</div>
+                    <div class="project-card-body">
+                        <span class="placeholder-status">Coming soon</span>
+                        <h3>Project Slot Two</h3>
+                        <p>A clean placeholder for the next assignment, personal experiment, or class submission.</p>
+                        <div class="project-tags">
+                            <span>Open spot</span>
+                            <span>Layout ready</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card--placeholder slide-in-top">
+                    <div class="project-visual project-visual--pattern">03</div>
+                    <div class="project-card-body">
+                        <span class="placeholder-status">Coming soon</span>
+                        <h3>Project Slot Three</h3>
+                        <p>Another reserved card so the portfolio keeps a balanced grid as more projects are added.</p>
+                        <div class="project-tags">
+                            <span>Open spot</span>
+                            <span>Layout ready</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card--placeholder slide-in-top">
+                    <div class="project-visual project-visual--pattern">04</div>
+                    <div class="project-card-body">
+                        <span class="placeholder-status">Coming soon</span>
+                        <h3>Project Slot Four</h3>
+                        <p>A fourth placement gives the page room to grow without changing the overall design.</p>
+                        <div class="project-tags">
+                            <span>Open spot</span>
+                            <span>Layout ready</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footertxt">&copy; 2024 Francis Homer Infante. All Rights Reserved.</p>
+    </footer>
 </body>
-<footer>
-    <p class="footertxt">&copy; 2024 Francis Homer Infante. All Rights Reserved.</p>
-</footer>
 </html>
