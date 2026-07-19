@@ -3,43 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Homer Infante</title>
+  <title>Homer Infante | Developer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body class="page-portfolio">
+<body class="page-home">
   <header class="site-header">
     <nav class="site-nav" aria-label="Primary">
       <a class="brand" href="index.html">H. Infante</a>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="https://github.com/FHOInfante" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="portfolio-page">
-      <div class="portfolio-header">
-        <p class="eyebrow">Portfolio</p>
-        <h1>My <span>Projects</span></h1>
-        <p>
-          All repositories are loaded directly from GitHub &mdash; no manual updates needed. Forked repos are filtered out so you only see my original work.
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Aspiring software developer</p>
+        <h1 class="hero-title">Hi, I'm <span>Homer Infante</span></h1>
+        <p class="hero-sub">
+          Computer Science student at Mapúa Malayan Colleges Laguna. I build projects, explore new tools, and refine my craft one commit at a time.
         </p>
-        <div class="filter-bar" id="filter-bar">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="Python">Python</button>
-          <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
-          <button class="filter-btn" data-filter="HTML">HTML/CSS</button>
-          <button class="filter-btn" data-filter="C#">C#</button>
+        <div class="hero-actions">
+          <a class="button button-primary" href="portfolio.html">View Projects</a>
+          <a class="button button-secondary" href="about.html">About Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>4+</strong>
+            <span>Projects on GitHub</span>
+          </div>
+          <div class="stat-item">
+            <strong>CS</strong>
+            <span>Computer Science</span>
+          </div>
+          <div class="stat-item">
+            <strong>2026</strong>
+            <span>Always learning</span>
+          </div>
         </div>
       </div>
+      <div class="hero-visual">
+        <div class="profile-frame">
+          <img src="website-photos/homer-person.jpg" alt="Homer Infante">
+        </div>
+      </div>
+    </section>
 
-      <div class="project-grid" id="repo-grid">
+    <section class="section" id="highlights">
+      <div class="section-header">
+        <h2>What I Do</h2>
+        <p>Exploring software development through projects, coursework, and continuous learning.</p>
+      </div>
+      <div class="highlight-grid">
+        <div class="highlight-card">
+          <div class="icon">&gt;_</div>
+          <h3>Software Development</h3>
+          <p>Building projects in Python, JavaScript, and C#. From file utilities to API integrations.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="icon">#!</div>
+          <h3>Web &amp; API Design</h3>
+          <p>Creating RESTful APIs and browser-based applications with modern tooling and best practices.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="icon">/*</div>
+          <h3>Problem Solving</h3>
+          <p>Breaking down complex problems into clean, maintainable solutions. Every project is a learning opportunity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="featured-projects">
+      <div class="section-header">
+        <h2>Featured Work</h2>
+        <p>Projects loaded live from GitHub.</p>
+      </div>
+      <div class="project-grid" id="home-repos">
         <div class="repo-loading">
           <div class="spinner"></div>
           <p>Loading projects from GitHub...</p>
@@ -63,6 +109,7 @@
   <script>
     (function() {
       const GITHUB_USER = 'FHOInfante';
+      const HOME_REPOS_LIMIT = 3;
 
       async function fetchRepos() {
         const res = await fetch(`https://api.github.com/users/${GITHUB_USER}/repos?per_page=30&sort=updated`);
@@ -94,7 +141,7 @@
         const color = getLanguageColor(repo.language);
 
         return `
-          <article class="project-card" data-lang="${repo.language || 'N/A'}">
+          <article class="project-card">
             <div class="project-card-visual">
               <span class="placeholder-icon">&lt;/&gt;</span>
               ${lang !== 'N/A' ? `<span class="lang-dot">${lang}</span>` : ''}
@@ -115,53 +162,29 @@
         `;
       }
 
-      function currentFilter() {
-        return document.querySelector('.filter-btn.active')?.dataset?.filter || 'all';
-      }
+      function renderHomeRepos(repos) {
+        const container = document.getElementById('home-repos');
+        const own = repos.filter(isOwnRepo).slice(0, HOME_REPOS_LIMIT);
 
-      function renderRepos(repos) {
-        const container = document.getElementById('repo-grid');
-        const own = repos.filter(isOwnRepo);
-        const filter = currentFilter();
-
-        let filtered = own;
-        if (filter !== 'all') {
-          filtered = own.filter(r => r.language === filter);
-        }
-
-        if (filtered.length === 0) {
-          container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:48px 0;font-family:var(--font-mono);font-size:0.85rem;">No projects match this filter.</p>';
+        if (own.length === 0) {
+          container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:48px 0;font-family:var(--font-mono);font-size:0.85rem;">No repositories found.</p>';
           return;
         }
 
-        container.innerHTML = filtered.map(buildCard).join('');
+        container.innerHTML = own.map(buildCard).join('');
       }
 
       function showError(msg) {
-        const container = document.getElementById('repo-grid');
+        const container = document.getElementById('home-repos');
         container.innerHTML = `<div class="repo-error"><p>${msg}</p></div>`;
-      }
-
-      function setupFilters(repos) {
-        const bar = document.getElementById('filter-bar');
-        bar.addEventListener('click', (e) => {
-          const btn = e.target.closest('.filter-btn');
-          if (!btn) return;
-
-          bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-
-          renderRepos(repos);
-        });
       }
 
       document.addEventListener('DOMContentLoaded', async () => {
         try {
           const repos = await fetchRepos();
-          setupFilters(repos);
-          renderRepos(repos);
+          renderHomeRepos(repos);
         } catch (e) {
-          showError('Could not load projects from GitHub. Please try again later or visit <a href="https://github.com/FHOInfante" target="_blank" style="color:var(--green-bright);text-decoration:underline;">github.com/FHOInfante</a>.');
+          showError('Could not load projects from GitHub. Please visit the <a href="portfolio.html" style="color:var(--green-bright);text-decoration:underline;">portfolio page</a>.');
         }
       });
     })();
