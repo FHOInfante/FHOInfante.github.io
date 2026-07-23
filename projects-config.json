@@ -1,0 +1,54 @@
+{
+  "featuredCount": 5,
+  "repos": [
+    "FHOInfante/TwitterCloneApi",
+    "mvillamante/Avalia",
+    "kamachi-dev/sams"
+  ],
+  "manualProjects": [
+    {
+      "name": "HandCursorProject",
+      "description": "A hand cursor tracking project using computer vision.",
+      "language": "Python",
+      "url": "https://github.com/FHOInfante/HandCursorProject",
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-07-23T00:00:00Z"
+    },
+    {
+      "name": "TerraPriceMobile",
+      "description": "A mobile price tracking application.",
+      "language": "Dart",
+      "url": "https://github.com/FHOInfante/TerraPriceMobile",
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-07-23T00:00:00Z"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Example Certificate",
+      "issuer": "Coursera",
+      "url": "https://www.linkedin.com/in/francis-homer-infante/details/certifications/",
+      "image": "website-photos/certificates/example.png",
+      "date": "2025-06"
+    }
+  ],
+  "collaborations": [
+    {
+      "name": "Prof. Maria Santos",
+      "title": "CS Instructor",
+      "text": "Homer is a dedicated and curious learner. He approaches every challenge with determination and always seeks to understand the underlying principles."
+    },
+    {
+      "name": "Juan Dela Cruz",
+      "title": "Classmate & Collaborator",
+      "text": "I had the pleasure of working with Homer on a group project. His attention to detail and ability to break down complex problems made him an invaluable team member."
+    },
+    {
+      "name": "Engr. Robert Reyes",
+      "title": "Project Mentor",
+      "text": "Francis demonstrates strong analytical skills and a genuine passion for technology. He consistently goes above and beyond what is required."
+    }
+  ]
+}

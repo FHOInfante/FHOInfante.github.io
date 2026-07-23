@@ -844,6 +844,59 @@ main {
   font-family: var(--font-mono);
 }
 
+/* ---- Certifications Section ---- */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all 300ms ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cert-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-surface);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 20px var(--green-glow);
+}
+
+.cert-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.cert-body {
+  padding: 18px 20px;
+  display: grid;
+  gap: 6px;
+}
+
+.cert-body h3 {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.cert-meta {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+}
+
 .recommendation-form {
   padding: 32px;
   border-radius: var(--radius);
