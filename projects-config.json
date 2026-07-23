@@ -26,13 +26,19 @@
     }
   ],
   "certificates": [
-    {
-      "title": "Example Certificate",
-      "issuer": "Coursera",
-      "url": "https://www.linkedin.com/in/francis-homer-infante/details/certifications/",
-      "image": "website-photos/certificates/example.png",
-      "date": "2025-06"
-    }
+    { "title": "Customer Centricity", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a607f859ca40b8cfd703752.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Customer Centricity.jpg" },
+    { "title": "Effective Speaking and Listening Skills", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a6080af9ca40b8cfd703b88.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Effective Speaking and Listening Skills.jpg" },
+    { "title": "Finance Literacy", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60821b9ca40b8cfd70429e.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Finance Literacy.jpg" },
+    { "title": "Impactful Writing Skills", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60dcc59ca40b8cfd71b5c9.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Impactful Writing Skills.jpg" },
+    { "title": "Interpersonal Skills", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60dd899ca40b8cfd71b815.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Interpersonal Skills.jpg" },
+    { "title": "Introduction to Entrepreneurship", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60de3d9ca40b8cfd71bae3.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Introduction to Entrepreneurship.jpg" },
+    { "title": "Online Communication and Data Security", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60dfdc9ca40b8cfd71bf9d.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Online Communication and Data Security.jpg" },
+    { "title": "Problem Solving and Innovation", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a60e3149ca40b8cfd71c6db.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Problem Solving and Innovation.jpg" },
+    { "title": "Professionalism", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a61cd6c9ca40b8cfd74b287.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Professionalism.jpg" },
+    { "title": "Self-Management", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a61ce649ca40b8cfd74b5a9.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Self-Management.jpg" },
+    { "title": "Self-Presentation", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a61cf169ca40b8cfd74b939.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Self-Presentation.jpg" },
+    { "title": "Start-up Mindset", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a61cfd89ca40b8cfd74bf15.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Start-up Mindset.jpg" },
+    { "title": "Work Productivity Tools", "issuer": "Wadhwani Foundation", "url": "Certificates/Wadhwani Foundation Certificate - 6a61d0509ca40b8cfd74c211.pdf", "image": "website-photos/certificates/Wadhwani Foundation Certificate - Work Productivity Tools.jpg" }
   ],
   "collaborations": [
     {
