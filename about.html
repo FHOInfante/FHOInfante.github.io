@@ -58,6 +58,42 @@
     </section>
   </main>
 
+  <section class="section recommendations-section" id="recommendations">
+    <div class="section-header">
+      <h2>Recommendations</h2>
+      <p>What people say about working with me.</p>
+    </div>
+    <div class="recommendations-grid" id="recommendation-list">
+      <div class="recommendation-card">
+        <p class="recommendation-text">Homer is a dedicated and curious learner. He approaches every challenge with determination and always seeks to understand the underlying principles.</p>
+        <p class="recommendation-author">&mdash; Prof. Maria Santos, CS Instructor</p>
+      </div>
+      <div class="recommendation-card">
+        <p class="recommendation-text">I had the pleasure of working with Homer on a group project. His attention to detail and ability to break down complex problems made him an invaluable team member.</p>
+        <p class="recommendation-author">&mdash; Juan Dela Cruz, Classmate &amp; Collaborator</p>
+      </div>
+      <div class="recommendation-card">
+        <p class="recommendation-text">Francis demonstrates strong analytical skills and a genuine passion for technology. He consistently goes above and beyond what is required.</p>
+        <p class="recommendation-author">&mdash; Engr. Robert Reyes, Project Mentor</p>
+      </div>
+    </div>
+    <div class="recommendation-form">
+      <h3>Leave a Recommendation</h3>
+      <form id="rec-form">
+        <input type="text" id="rec-name" placeholder="Your Name (optional)" class="form-input">
+        <textarea id="rec-message" placeholder="Write your recommendation..." class="form-textarea" required></textarea>
+        <button type="submit" class="button button-primary">Submit Recommendation</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="popup-overlay" id="popup">
+    <div class="popup-content">
+      <p>Thank you for your recommendation!</p>
+      <button class="button button-primary" id="popup-close">OK</button>
+    </div>
+  </div>
+
   <footer>
     <div class="footer-inner">
       <p>&copy; 2024&ndash;2026 Francis Homer Infante</p>
@@ -69,5 +105,48 @@
     </div>
   </footer>
   <script src="bg-animation.js"></script>
+  <script>
+    (function() {
+      var form = document.getElementById('rec-form');
+      var popup = document.getElementById('popup');
+      var popupClose = document.getElementById('popup-close');
+      var recList = document.getElementById('recommendation-list');
+
+      function showPopup() { popup.classList.add('show'); }
+
+      function hidePopup() { popup.classList.remove('show'); }
+
+      function addRecommendation(name, message) {
+        var card = document.createElement('div');
+        card.className = 'recommendation-card';
+        var textEl = document.createElement('p');
+        textEl.className = 'recommendation-text';
+        textEl.textContent = message;
+        var authorEl = document.createElement('p');
+        authorEl.className = 'recommendation-author';
+        authorEl.textContent = '\u2014 ' + (name.trim() || 'Anonymous');
+        card.appendChild(textEl);
+        card.appendChild(authorEl);
+        recList.appendChild(card);
+      }
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var nameInput = document.getElementById('rec-name');
+        var messageInput = document.getElementById('rec-message');
+        var name = nameInput.value.trim();
+        var message = messageInput.value.trim();
+        if (message === '') return;
+        addRecommendation(name, message);
+        form.reset();
+        showPopup();
+      });
+
+      popupClose.addEventListener('click', hidePopup);
+      popup.addEventListener('click', function(e) {
+        if (e.target === popup) hidePopup();
+      });
+    })();
+  </script>
 </body>
 </html>

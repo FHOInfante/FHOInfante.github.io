@@ -88,14 +88,16 @@
         return colors[lang] || '#8ba38e';
       }
 
-      function buildCard(repo) {
+      function buildCard(repo, index) {
         const desc = repo.description || 'No description provided.';
         const lang = repo.language || 'N/A';
         const color = getLanguageColor(repo.language);
+        const previewPath = `website-photos/${encodeURIComponent(repo.name)}-Preview.png`;
 
         return `
-          <article class="project-card" data-lang="${repo.language || 'N/A'}">
+          <article class="project-card" data-lang="${repo.language || 'N/A'}" style="animation-delay: ${(index || 0) * 60}ms">
             <div class="project-card-visual">
+              <img src="${previewPath}" alt="${repo.name}" loading="lazy" class="preview-img" onerror="this.classList.add('failed')">
               <span class="placeholder-icon">&lt;/&gt;</span>
               ${lang !== 'N/A' ? `<span class="lang-dot">${lang}</span>` : ''}
             </div>
@@ -134,7 +136,7 @@
           return;
         }
 
-        container.innerHTML = filtered.map(buildCard).join('');
+        container.innerHTML = filtered.map((r, i) => buildCard(r, i)).join('');
       }
 
       function showError(msg) {
