@@ -71,6 +71,7 @@ function normalizeRepo(r, isExternal) {
     projects: projects,
     collaborations: config.collaborations || [],
     certificates: config.certificates || [],
+    skills: config.skills || [],
   };
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
@@ -78,7 +79,7 @@ function normalizeRepo(r, isExternal) {
 
   const jsonStr = JSON.stringify(output).replace(/<\//g, '<\\/');
   const embedRe = /(<script id="projects-data" type="application\/json">)(.*?)(<\/script>)/s;
-  const htmlFiles = ['index.html', 'portfolio.html', 'about.html'];
+  const htmlFiles = ['index.html', 'portfolio.html', 'about.html', 'skills.html', 'certificates.html', 'experience.html'];
   for (const file of htmlFiles) {
     const htmlPath = path.join(__dirname, '..', file);
     let html = fs.readFileSync(htmlPath, 'utf-8');

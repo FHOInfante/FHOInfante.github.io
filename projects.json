@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T03:18:36.744Z",
+  "lastUpdated": "2026-07-24T08:26:37.408Z",
   "featured": [
     {
       "name": "HandCursorProject",
@@ -14,7 +14,7 @@
     {
       "name": "TerraPriceMobile",
       "description": "A mobile price tracking application.",
-      "language": "Dart",
+      "language": "Python",
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -66,7 +66,7 @@
     {
       "name": "TerraPriceMobile",
       "description": "A mobile price tracking application.",
-      "language": "Dart",
+      "language": "Python",
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -199,6 +199,235 @@
       "issuer": "Wadhwani Foundation",
       "url": "Certificates/Wadhwani Foundation Certificate - 6a61d0509ca40b8cfd74c211.pdf",
       "image": "website-photos/certificates/Wadhwani Foundation Certificate - Work Productivity Tools.jpg"
+    },
+    {
+      "title": "Advanced Learning Algorithms",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Advanced_Learning_Algorithms-page-1.png",
+      "image": "website-photos/certificates/Coursera_Advanced_Learning_Algorithms-page-1.png"
+    },
+    {
+      "title": "Building Generative AI-Powered Applications with Python",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Building_Generative_AI-Powered_Applications_with_Python-page-1.png",
+      "image": "website-photos/certificates/Coursera_Building_Generative_AI-Powered_Applications_with_Python-page-1.png"
+    },
+    {
+      "title": "Deep Learning and Reinforcement Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Deep_Learning_and_Reinforcement_Learning-page-1.png",
+      "image": "website-photos/certificates/Coursera_Deep_Learning_and_Reinforcement_Learning-page-1.png"
+    },
+    {
+      "title": "Exploratory Data Analysis for Machine Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Exploratory_Data_Analysis_for_Machine_Learning-page-1.png",
+      "image": "website-photos/certificates/Coursera_Exploratory_Data_Analysis_for_Machine_Learning-page-1.png"
+    },
+    {
+      "title": "Generative AI: Elevate your Software Development",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Generative_AI_Elevate_your_Software_Development-page-1.png",
+      "image": "website-photos/certificates/Coursera_Generative_AI_Elevate_your_Software_Development-page-1.png"
+    },
+    {
+      "title": "Generative AI: Introduction and Applications",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Generative_AI_Introduction_and_Applications-page-1.png",
+      "image": "website-photos/certificates/Coursera_Generative_AI_Introduction_and_Applications-page-1.png"
+    },
+    {
+      "title": "Generative AI: Prompt Engineering Basics",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Generative_AI_Prompt_Engineering_Basics-page-1.png",
+      "image": "website-photos/certificates/Coursera_Generative_AI_Prompt_Engineering_Basics-page-1.png"
+    },
+    {
+      "title": "IBM Machine Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_IBM_Machine_Learning-page-1.png",
+      "image": "website-photos/certificates/Coursera_IBM_Machine_Learning-page-1.png"
+    },
+    {
+      "title": "Introduction to HTML, CSS, & JavaScript",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Introduction_to_HTML__CSS____Javascipt-page-1.png",
+      "image": "website-photos/certificates/Coursera_Introduction_to_HTML__CSS____Javascipt-page-1.png"
+    },
+    {
+      "title": "Introduction to Software Engineering",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Introduction_to_Software_Engineering-page-1.png",
+      "image": "website-photos/certificates/Coursera_Introduction_to_Software_Engineering-page-1.png"
+    },
+    {
+      "title": "Machine Learning Capstone",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Machine_Learning_Capstone-page-1.png",
+      "image": "website-photos/certificates/Coursera_Machine_Learning_Capstone-page-1.png"
+    },
+    {
+      "title": "Machine Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Machine_Learning-page-1.png",
+      "image": "website-photos/certificates/Coursera_Machine_Learning-page-1.png"
+    },
+    {
+      "title": "Software Developer Career Guide and Interview",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Software_Developer_Career_Guide_and_Interview-page-1.png",
+      "image": "website-photos/certificates/Coursera_Software_Developer_Career_Guide_and_Interview-page-1.png"
+    },
+    {
+      "title": "Supervised Machine Learning: Classification",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Classification-page-1.png",
+      "image": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Classification-page-1.png"
+    },
+    {
+      "title": "Supervised Machine Learning: Regression and Classification",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Regression_and-page-1.png",
+      "image": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Regression_and-page-1.png"
+    },
+    {
+      "title": "Supervised Machine Learning: Regression",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Regression-page-1.png",
+      "image": "website-photos/certificates/Coursera_Supervised_Machine_Learning_Regression-page-1.png"
+    },
+    {
+      "title": "The Language of Design: Form and Meaning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_The_Language_of_Design_Form_and_Meaning-page-1.png",
+      "image": "website-photos/certificates/Coursera_The_Language_of_Design_Form_and_Meaning-page-1.png"
+    },
+    {
+      "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Unsupervised_Learning__Recommenders_-page-1.png",
+      "image": "website-photos/certificates/Coursera_Unsupervised_Learning__Recommenders_-page-1.png"
+    },
+    {
+      "title": "Unsupervised Machine Learning",
+      "issuer": "Coursera",
+      "url": "website-photos/certificates/Coursera_Unsupervised_Machine_Learning-page-1.png",
+      "image": "website-photos/certificates/Coursera_Unsupervised_Machine_Learning-page-1.png"
+    },
+    {
+      "title": "Prepare Data for ML APIs on Google Cloud",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9833702",
+      "image": "https://cdn.qwiklabs.com/nPOhhnNKn5VyW7dKUi0ukgK87u1tgExbM1fa%2B%2BeX4zo%3D"
+    },
+    {
+      "title": "Build a Secure Google Cloud Network",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9832045",
+      "image": "https://cdn.qwiklabs.com/iSYR6VYwTThdX1gWXV9xN9NiwGeNqW65BAtCXgYAxGU%3D"
+    },
+    {
+      "title": "Set Up an App Dev Environment on Google Cloud",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9831212",
+      "image": "https://cdn.qwiklabs.com/o%2BM1nlI4Yf8S0NtGm6ygsVm5NqJV5dVXy9JyubJVqn0%3D"
+    },
+    {
+      "title": "Google Cloud Computing Foundations: Data, ML, and AI",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9829968",
+      "image": "https://cdn.qwiklabs.com/%2B9Ocj70ImaY7LgjC%2BVjiw0863Bw1ca23PDUzXib77jg%3D"
+    },
+    {
+      "title": "Google Cloud Computing Foundations: Networking & Security",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9748796",
+      "image": "https://cdn.qwiklabs.com/pVYCJYIRQHsBFUUrAg8aYuNEmzbxyqEC2ilOYTmppzo%3D"
+    },
+    {
+      "title": "Google Cloud Computing Foundations: Infrastructure",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9715617",
+      "image": "https://cdn.qwiklabs.com/knJt4%2FpZ%2BAU9B6lx6AqxbY0RSzmivt9GXPPzisU4Inw%3D"
+    },
+    {
+      "title": "Implement Load Balancing on Compute Engine",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9698829",
+      "image": "https://cdn.qwiklabs.com/O%2BUe1xXu46e%2ByFUgcqTBv9siZuDhaelyqyBtltnwA4E%3D"
+    },
+    {
+      "title": "Google Cloud Computing Fundamentals",
+      "issuer": "Google Cloud",
+      "url": "https://www.skills.google/public_profiles/cf6405df-fa49-437e-b5d5-f49f9e21e6e7/badges/9696055",
+      "image": "https://cdn.qwiklabs.com/ZfZY3e%2FRjS56CUmz0fQhZbKt6eUfC1wAebm50h0dOhc%3D"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "HTML5",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "CSS3",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "C#",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+      "category": "Languages"
+    },
+    {
+      "name": "MySQL",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "category": "Databases"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      "category": "Databases"
+    },
+    {
+      "name": "Git",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "VS Code",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "Android Studio",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "XAMPP",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "Postman",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+      "category": "Tools"
     }
   ]
 }
