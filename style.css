@@ -1116,17 +1116,24 @@ footer {
 
 .footer-links {
   display: flex;
-  gap: 16px;
+  align-items: center;
+  gap: 6px;
 }
 
 .footer-links a {
-  color: var(--text-muted);
-  font-size: 0.8rem;
-  transition: color 200ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  color: var(--text-dim);
+  transition: color 180ms ease, background 180ms ease;
 }
 
 .footer-links a:hover {
   color: var(--green-bright);
+  background: rgba(57, 255, 20, 0.08);
 }
 
 /* ── Nav Social Icons ─────────────────────────────── */
