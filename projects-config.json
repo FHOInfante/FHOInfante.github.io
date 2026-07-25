@@ -1,7 +1,6 @@
 {
-  "featuredCount": 5,
+  "featuredCount": 6,
   "repos": [
-    "mvillamante/TwitterClone",
     "mvillamante/Avalia"
   ],
   "manualProjects": [
@@ -44,6 +43,16 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-14T00:00:00Z"
+    },
+    {
+      "name": "TwitterClone",
+      "description": "A Twitter clone called Vespera with a custom gradient-themed design. Features include user registration, login, tweeting, following, timelines, likes, and profiles. Built with HTML, CSS, JavaScript, and Node.js, deployed on Netlify.",
+      "language": "JavaScript",
+      "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Netlify"],
+      "url": "https://github.com/mvillamante/TwitterClone",
+      "stars": 0,
+      "forks": 1,
+      "updatedAt": "2024-02-10T06:14:11Z"
     }
   ],
   "repoTags": {

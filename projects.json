@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T04:07:46.192Z",
+  "lastUpdated": "2026-07-25T04:17:18.576Z",
   "featured": [
     {
       "name": "HandCursorProject",
@@ -80,6 +80,23 @@
       "updatedAt": "2026-03-23T05:02:08Z",
       "url": "https://github.com/mvillamante/Avalia",
       "isExternal": true
+    },
+    {
+      "name": "TwitterClone",
+      "description": "A Twitter clone called Vespera with a custom gradient-themed design. Features include user registration, login, tweeting, following, timelines, likes, and profiles. Built with HTML, CSS, JavaScript, and Node.js, deployed on Netlify.",
+      "language": "JavaScript",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Netlify"
+      ],
+      "stars": 0,
+      "forks": 1,
+      "updatedAt": "2024-02-10T06:14:11Z",
+      "url": "https://github.com/mvillamante/TwitterClone",
+      "isExternal": false
     }
   ],
   "projects": [
@@ -165,7 +182,7 @@
     },
     {
       "name": "TwitterClone",
-      "description": "",
+      "description": "A Twitter clone called Vespera with a custom gradient-themed design. Features include user registration, login, tweeting, following, timelines, likes, and profiles. Built with HTML, CSS, JavaScript, and Node.js, deployed on Netlify.",
       "language": "JavaScript",
       "tags": [
         "HTML",
@@ -176,9 +193,9 @@
       ],
       "stars": 0,
       "forks": 1,
-      "updatedAt": "2024-02-12T09:55:55Z",
+      "updatedAt": "2024-02-10T06:14:11Z",
       "url": "https://github.com/mvillamante/TwitterClone",
-      "isExternal": true
+      "isExternal": false
     }
   ],
   "collaborations": [

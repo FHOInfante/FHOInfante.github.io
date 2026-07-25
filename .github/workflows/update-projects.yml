@@ -2,13 +2,9 @@ name: Update Projects
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run once daily at midnight
+    - cron: '0 0 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'projects-config.json'
 
 permissions:
   contents: write
