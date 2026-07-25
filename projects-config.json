@@ -2,8 +2,7 @@
   "featuredCount": 5,
   "repos": [
     "mvillamante/TwitterClone",
-    "mvillamante/Avalia",
-    "kamachi-dev/sams"
+    "mvillamante/Avalia"
   ],
   "manualProjects": [
     {
@@ -25,13 +24,33 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z"
+    },
+    {
+      "name": "sams",
+      "description": "A Student Attendance and Monitoring System built with TypeScript. Tracks student attendance, generates reports, and provides real-time monitoring for classroom management.",
+      "language": "TypeScript",
+      "tags": ["TypeScript", "Node.js", "Web App", "Database"],
+      "url": "https://github.com/kamachi-dev/sams",
+      "stars": 2,
+      "forks": 0,
+      "updatedAt": "2026-07-21T08:48:54Z"
+    },
+    {
+      "name": "Camera-Attendance-App",
+      "description": "A facial recognition app for attendance tracking built with Python and OpenCV. Captures camera input to identify students and automatically log attendance into the SAMS system.",
+      "language": "Python",
+      "tags": ["Python", "OpenCV", "Facial Recognition", "Tkinter"],
+      "url": "https://github.com/FHOInfante/Camera-Attendance-App",
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-07-14T00:00:00Z"
     }
   ],
   "repoTags": {
     "mvillamante/TwitterClone": ["HTML", "CSS", "JavaScript", "Node.js", "Netlify"],
-    "mvillamante/Avalia": ["HTML", "CSS", "JavaScript", "Web App"],
-    "kamachi-dev/sams": ["TypeScript", "Node.js", "Web App", "Database"]
+    "mvillamante/Avalia": ["HTML", "CSS", "JavaScript", "Web App"]
   },
+  "collaborations": [
   "skills": [
     { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Languages" },
     { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Languages" },
