@@ -3,7 +3,7 @@
   "featured": [
     {
       "name": "HandCursorProject",
-      "description": "A hand cursor tracking project using computer vision.",
+      "description": "A computer vision project that tracks hand movements to control the cursor, exploring human-computer interaction through real-time gesture recognition.",
       "language": "Python",
       "stars": 0,
       "forks": 0,
@@ -13,7 +13,7 @@
     },
     {
       "name": "TerraPriceMobile",
-      "description": "A mobile price tracking application.",
+      "description": "A mobile application that tracks and compares prices across retailers, helping users find the best deals on products they care about.",
       "language": "Python",
       "stars": 0,
       "forks": 0,
@@ -23,7 +23,7 @@
     },
     {
       "name": "sams",
-      "description": "",
+      "description": "A Student Attendance and Monitoring System built with TypeScript. Tracks student attendance, generates reports, and provides real-time monitoring for classroom management.",
       "language": "TypeScript",
       "stars": 2,
       "forks": 0,
@@ -33,7 +33,7 @@
     },
     {
       "name": "Avalia",
-      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
+      "description": "An online cinema ticket booking system with a custom design. Users can browse movies, select showtimes, and reserve seats through a seamless booking experience.",
       "language": "CSS",
       "stars": 0,
       "forks": 2,
@@ -43,7 +43,7 @@
     },
     {
       "name": "TwitterCloneApi",
-      "description": "",
+      "description": "A Twitter clone built with our own design. Implements core social media features including posts, user interactions, and a custom REST API backend.",
       "language": null,
       "stars": 0,
       "forks": 0,
@@ -55,7 +55,7 @@
   "projects": [
     {
       "name": "HandCursorProject",
-      "description": "A hand cursor tracking project using computer vision.",
+      "description": "A computer vision project that tracks hand movements to control the cursor, exploring human-computer interaction through real-time gesture recognition.",
       "language": "Python",
       "stars": 0,
       "forks": 0,
@@ -65,7 +65,7 @@
     },
     {
       "name": "TerraPriceMobile",
-      "description": "A mobile price tracking application.",
+      "description": "A mobile application that tracks and compares prices across retailers, helping users find the best deals on products they care about.",
       "language": "Python",
       "stars": 0,
       "forks": 0,
@@ -75,7 +75,7 @@
     },
     {
       "name": "sams",
-      "description": "",
+      "description": "A Student Attendance and Monitoring System built with TypeScript. Tracks student attendance, generates reports, and provides real-time monitoring for classroom management.",
       "language": "TypeScript",
       "stars": 2,
       "forks": 0,
@@ -85,7 +85,7 @@
     },
     {
       "name": "Avalia",
-      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
+      "description": "An online cinema ticket booking system with a custom design. Users can browse movies, select showtimes, and reserve seats through a seamless booking experience.",
       "language": "CSS",
       "stars": 0,
       "forks": 2,
@@ -95,7 +95,7 @@
     },
     {
       "name": "TwitterCloneApi",
-      "description": "",
+      "description": "A Twitter clone built with our own design. Implements core social media features including posts, user interactions, and a custom REST API backend.",
       "language": null,
       "stars": 0,
       "forks": 0,
