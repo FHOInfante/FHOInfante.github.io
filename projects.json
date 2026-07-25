@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T03:17:12.572Z",
+  "lastUpdated": "2026-07-25T04:00:59.382Z",
   "featured": [
     {
       "name": "HandCursorProject",
@@ -47,40 +47,7 @@
       "forks": 0,
       "updatedAt": "2026-07-21T08:48:54Z",
       "url": "https://github.com/kamachi-dev/sams",
-      "isExternal": true
-    },
-    {
-      "name": "Avalia",
-      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
-      "language": "CSS",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Web App"
-      ],
-      "stars": 0,
-      "forks": 2,
-      "updatedAt": "2026-03-23T05:02:08Z",
-      "url": "https://github.com/mvillamante/Avalia",
-      "isExternal": true
-    },
-    {
-      "name": "TwitterClone",
-      "description": "",
-      "language": "JavaScript",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Node.js",
-        "Netlify"
-      ],
-      "stars": 0,
-      "forks": 1,
-      "updatedAt": "2024-02-12T09:55:55Z",
-      "url": "https://github.com/mvillamante/TwitterClone",
-      "isExternal": true
+      "isExternal": false
     },
     {
       "name": "Camera-Attendance-App",
@@ -97,6 +64,22 @@
       "updatedAt": "2026-07-14T00:00:00Z",
       "url": "https://github.com/FHOInfante/Camera-Attendance-App",
       "isExternal": false
+    },
+    {
+      "name": "Avalia",
+      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
+      "language": "CSS",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web App"
+      ],
+      "stars": 0,
+      "forks": 2,
+      "updatedAt": "2026-03-23T05:02:08Z",
+      "url": "https://github.com/mvillamante/Avalia",
+      "isExternal": true
     }
   ],
   "projects": [
@@ -146,7 +129,23 @@
       "forks": 0,
       "updatedAt": "2026-07-21T08:48:54Z",
       "url": "https://github.com/kamachi-dev/sams",
-      "isExternal": true
+      "isExternal": false
+    },
+    {
+      "name": "Camera-Attendance-App",
+      "description": "A facial recognition app for attendance tracking built with Python and OpenCV. Captures camera input to identify students and automatically log attendance into the SAMS system.",
+      "language": "Python",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "Facial Recognition",
+        "Tkinter"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-07-14T00:00:00Z",
+      "url": "https://github.com/FHOInfante/Camera-Attendance-App",
+      "isExternal": false
     },
     {
       "name": "Avalia",
@@ -180,22 +179,6 @@
       "updatedAt": "2024-02-12T09:55:55Z",
       "url": "https://github.com/mvillamante/TwitterClone",
       "isExternal": true
-    },
-    {
-      "name": "Camera-Attendance-App",
-      "description": "A facial recognition app for attendance tracking built with Python and OpenCV. Captures camera input to identify students and automatically log attendance into the SAMS system.",
-      "language": "Python",
-      "tags": [
-        "Python",
-        "OpenCV",
-        "Facial Recognition",
-        "Tkinter"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-07-14T00:00:00Z",
-      "url": "https://github.com/FHOInfante/Camera-Attendance-App",
-      "isExternal": false
     }
   ],
   "collaborations": [

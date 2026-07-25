@@ -50,7 +50,6 @@
     "mvillamante/TwitterClone": ["HTML", "CSS", "JavaScript", "Node.js", "Netlify"],
     "mvillamante/Avalia": ["HTML", "CSS", "JavaScript", "Web App"]
   },
-  "collaborations": [
   "skills": [
     { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Languages" },
     { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Languages" },
