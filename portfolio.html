@@ -92,6 +92,7 @@
         const lang = repo.language || 'N/A';
         const color = getLanguageColor(repo.language);
         const previewPath = `website-photos/${encodeURIComponent(repo.name)}-Preview.png`;
+        const tags = (repo.tags || []).map(t => `<span class="project-tag">${t}</span>`).join('');
 
         return `
           <article class="project-card" data-lang="${repo.language || 'N/A'}" style="animation-delay: ${(index || 0) * 60}ms">
@@ -103,6 +104,7 @@
             <div class="project-card-body">
               <h3>${repo.name}</h3>
               <p>${desc}</p>
+              ${tags ? `<div class="project-tags">${tags}</div>` : ''}
               <div class="project-card-meta">
                 <span>&#9733; ${repo.stars}</span>
                 <span>&#969; ${repo.forks}</span>

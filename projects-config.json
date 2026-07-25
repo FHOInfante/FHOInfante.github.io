@@ -8,8 +8,9 @@
   "manualProjects": [
     {
       "name": "HandCursorProject",
-      "description": "A hand cursor tracking project using computer vision.",
+      "description": "A computer vision project that tracks hand movements to control the cursor, exploring human-computer interaction through real-time gesture recognition.",
       "language": "Python",
+      "tags": ["Python", "OpenCV", "MediaPipe", "Computer Vision"],
       "url": "https://github.com/FHOInfante/HandCursorProject",
       "stars": 0,
       "forks": 0,
@@ -17,14 +18,20 @@
     },
     {
       "name": "TerraPriceMobile",
-      "description": "A mobile price tracking application.",
+      "description": "A mobile application that tracks and compares prices across retailers, helping users find the best deals on products they care about.",
       "language": "Python",
+      "tags": ["Python", "Kivy", "Mobile", "REST API"],
       "url": "https://github.com/FHOInfante/TerraPriceMobile",
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z"
     }
   ],
+  "repoTags": {
+    "FHOInfante/TwitterCloneApi": ["REST API", "Backend", "JavaScript"],
+    "mvillamante/Avalia": ["HTML", "CSS", "JavaScript", "Web App"],
+    "kamachi-dev/sams": ["TypeScript", "Node.js", "Web App", "Database"]
+  },
   "skills": [
     { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Languages" },
     { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Languages" },

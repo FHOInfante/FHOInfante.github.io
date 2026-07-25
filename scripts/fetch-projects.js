@@ -18,11 +18,12 @@ function fetch(url) {
   });
 }
 
-function normalizeRepo(r, isExternal) {
+function normalizeRepo(r, isExternal, tags) {
   return {
     name: r.name,
     description: r.description || '',
     language: r.language || null,
+    tags: tags || [],
     stars: r.stargazers_count,
     forks: r.forks_count,
     updatedAt: r.updated_at,
@@ -35,6 +36,7 @@ function normalizeRepo(r, isExternal) {
   const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
   const repoSlugs = config.repos || [];
   const manual = config.manualProjects || [];
+  const repoTags = config.repoTags || {};
   let projects = [];
   let failed = [];
 
@@ -43,7 +45,8 @@ function normalizeRepo(r, isExternal) {
       console.log(`Fetching: ${slug}`);
       const r = await fetch(`https://api.github.com/repos/${slug}`);
       const isExt = !slug.toLowerCase().startsWith('fhoinfante/');
-      projects.push(normalizeRepo(r, isExt));
+      const tags = repoTags[slug] || [];
+      projects.push(normalizeRepo(r, isExt, tags));
     } catch (e) {
       console.warn(`Failed to fetch ${slug}: ${e.message}`);
       failed.push(slug);
@@ -55,6 +58,7 @@ function normalizeRepo(r, isExternal) {
       name: m.name,
       description: m.description || '',
       language: m.language || null,
+      tags: m.tags || [],
       stars: m.stars || 0,
       forks: m.forks || 0,
       updatedAt: m.updatedAt || new Date().toISOString(),

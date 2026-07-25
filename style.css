@@ -483,6 +483,25 @@ main {
   line-height: 1.7;
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.project-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: var(--green-bright);
+  background: rgba(57, 255, 20, 0.08);
+  border: 1px solid rgba(57, 255, 20, 0.15);
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+
 .project-card-meta {
   display: flex;
   gap: 16px;
@@ -1168,6 +1187,24 @@ footer {
   border-radius: 12px;
   padding: 28px 32px;
   margin-bottom: 48px;
+}
+
+.exp-company-logo {
+  margin-bottom: 20px;
+}
+
+.exp-company-logo img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: transform 200ms ease;
+}
+
+.exp-company-logo img:hover {
+  transform: scale(1.03);
 }
 
 .exp-header-info {
