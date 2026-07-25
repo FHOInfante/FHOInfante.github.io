@@ -1,7 +1,7 @@
 {
   "featuredCount": 5,
   "repos": [
-    "FHOInfante/TwitterCloneApi",
+    "mvillamante/TwitterClone",
     "mvillamante/Avalia",
     "kamachi-dev/sams"
   ],
@@ -28,7 +28,7 @@
     }
   ],
   "repoTags": {
-    "FHOInfante/TwitterCloneApi": ["REST API", "Backend", "JavaScript"],
+    "mvillamante/TwitterClone": ["HTML", "CSS", "JavaScript", "Node.js", "Netlify"],
     "mvillamante/Avalia": ["HTML", "CSS", "JavaScript", "Web App"],
     "kamachi-dev/sams": ["TypeScript", "Node.js", "Web App", "Database"]
   },

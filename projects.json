@@ -66,19 +66,21 @@
       "isExternal": true
     },
     {
-      "name": "TwitterCloneApi",
-      "description": "",
-      "language": null,
+      "name": "TwitterClone",
+      "description": "A Twitter clone called Vespera with a custom gradient-themed design. Features include user registration, login, tweeting, following, timelines, likes, and profiles. Built with HTML, CSS, JavaScript, and Node.js, deployed on Netlify.",
+      "language": "JavaScript",
       "tags": [
-        "REST API",
-        "Backend",
-        "JavaScript"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Netlify"
       ],
       "stars": 0,
-      "forks": 0,
+      "forks": 1,
       "updatedAt": "2024-02-10T06:14:11Z",
-      "url": "https://github.com/FHOInfante/TwitterCloneApi",
-      "isExternal": false
+      "url": "https://github.com/mvillamante/TwitterClone",
+      "isExternal": true
     }
   ],
   "projects": [
@@ -147,19 +149,21 @@
       "isExternal": true
     },
     {
-      "name": "TwitterCloneApi",
-      "description": "",
-      "language": null,
+      "name": "TwitterClone",
+      "description": "A Twitter clone called Vespera with a custom gradient-themed design. Features include user registration, login, tweeting, following, timelines, likes, and profiles. Built with HTML, CSS, JavaScript, and Node.js, deployed on Netlify.",
+      "language": "JavaScript",
       "tags": [
-        "REST API",
-        "Backend",
-        "JavaScript"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Netlify"
       ],
       "stars": 0,
-      "forks": 0,
+      "forks": 1,
       "updatedAt": "2024-02-10T06:14:11Z",
-      "url": "https://github.com/FHOInfante/TwitterCloneApi",
-      "isExternal": false
+      "url": "https://github.com/mvillamante/TwitterClone",
+      "isExternal": true
     }
   ],
   "collaborations": [
