@@ -1,11 +1,16 @@
 {
-  "lastUpdated": "2026-07-24T19:37:26.805Z",
+  "lastUpdated": "2026-07-25T02:58:44.466Z",
   "featured": [
     {
       "name": "HandCursorProject",
       "description": "A computer vision project that tracks hand movements to control the cursor, exploring human-computer interaction through real-time gesture recognition.",
       "language": "Python",
-      "tags": ["Python", "OpenCV", "MediaPipe", "Computer Vision"],
+      "tags": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Computer Vision"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -16,7 +21,12 @@
       "name": "TerraPriceMobile",
       "description": "A mobile application that tracks and compares prices across retailers, helping users find the best deals on products they care about.",
       "language": "Python",
-      "tags": ["Python", "Kivy", "Mobile", "REST API"],
+      "tags": [
+        "Python",
+        "Kivy",
+        "Mobile",
+        "REST API"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -25,9 +35,14 @@
     },
     {
       "name": "sams",
-      "description": "A Student Attendance and Monitoring System built with TypeScript. Tracks student attendance, generates reports, and provides real-time monitoring for classroom management.",
+      "description": "",
       "language": "TypeScript",
-      "tags": ["TypeScript", "Node.js", "Web App", "Database"],
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "Web App",
+        "Database"
+      ],
       "stars": 2,
       "forks": 0,
       "updatedAt": "2026-07-21T08:48:54Z",
@@ -36,9 +51,14 @@
     },
     {
       "name": "Avalia",
-      "description": "An online cinema ticket booking system with a custom design. Users can browse movies, select showtimes, and reserve seats through a seamless booking experience.",
+      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
       "language": "CSS",
-      "tags": ["HTML", "CSS", "JavaScript", "Web App"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web App"
+      ],
       "stars": 0,
       "forks": 2,
       "updatedAt": "2026-03-23T05:02:08Z",
@@ -47,9 +67,13 @@
     },
     {
       "name": "TwitterCloneApi",
-      "description": "A Twitter clone built with our own design. Implements core social media features including posts, user interactions, and a custom REST API backend.",
+      "description": "",
       "language": null,
-      "tags": ["REST API", "Backend", "JavaScript"],
+      "tags": [
+        "REST API",
+        "Backend",
+        "JavaScript"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-02-10T06:14:11Z",
@@ -62,7 +86,12 @@
       "name": "HandCursorProject",
       "description": "A computer vision project that tracks hand movements to control the cursor, exploring human-computer interaction through real-time gesture recognition.",
       "language": "Python",
-      "tags": ["Python", "OpenCV", "MediaPipe", "Computer Vision"],
+      "tags": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Computer Vision"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -73,7 +102,12 @@
       "name": "TerraPriceMobile",
       "description": "A mobile application that tracks and compares prices across retailers, helping users find the best deals on products they care about.",
       "language": "Python",
-      "tags": ["Python", "Kivy", "Mobile", "REST API"],
+      "tags": [
+        "Python",
+        "Kivy",
+        "Mobile",
+        "REST API"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-07-23T00:00:00Z",
@@ -82,9 +116,14 @@
     },
     {
       "name": "sams",
-      "description": "A Student Attendance and Monitoring System built with TypeScript. Tracks student attendance, generates reports, and provides real-time monitoring for classroom management.",
+      "description": "",
       "language": "TypeScript",
-      "tags": ["TypeScript", "Node.js", "Web App", "Database"],
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "Web App",
+        "Database"
+      ],
       "stars": 2,
       "forks": 0,
       "updatedAt": "2026-07-21T08:48:54Z",
@@ -93,9 +132,14 @@
     },
     {
       "name": "Avalia",
-      "description": "An online cinema ticket booking system with a custom design. Users can browse movies, select showtimes, and reserve seats through a seamless booking experience.",
+      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
       "language": "CSS",
-      "tags": ["HTML", "CSS", "JavaScript", "Web App"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web App"
+      ],
       "stars": 0,
       "forks": 2,
       "updatedAt": "2026-03-23T05:02:08Z",
@@ -104,9 +148,13 @@
     },
     {
       "name": "TwitterCloneApi",
-      "description": "A Twitter clone built with our own design. Implements core social media features including posts, user interactions, and a custom REST API backend.",
+      "description": "",
       "language": null,
-      "tags": ["REST API", "Backend", "JavaScript"],
+      "tags": [
+        "REST API",
+        "Backend",
+        "JavaScript"
+      ],
       "stars": 0,
       "forks": 0,
       "updatedAt": "2024-02-10T06:14:11Z",
