@@ -1191,20 +1191,21 @@ footer {
 
 .exp-company-logo {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .exp-company-logo img {
-  height: 48px;
+  height: 40px;
   width: auto;
   object-fit: contain;
-  padding: 10px 14px;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 8px;
-  transition: transform 200ms ease;
+  filter: invert(1) brightness(1.2);
+  opacity: 0.8;
+  transition: opacity 200ms ease, filter 200ms ease;
 }
 
 .exp-company-logo img:hover {
-  transform: scale(1.03);
+  opacity: 1;
+  filter: invert(1) brightness(1.4);
 }
 
 .exp-header-info {
