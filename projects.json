@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T01:27:14.175Z",
+  "lastUpdated": "2026-08-02T01:24:48.985Z",
   "featured": [
     {
       "name": "HandCursorProject",
@@ -64,6 +64,22 @@
       "updatedAt": "2026-07-14T00:00:00Z",
       "url": "https://github.com/FHOInfante/Camera-Attendance-App",
       "isExternal": false
+    },
+    {
+      "name": "Avalia",
+      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
+      "language": "CSS",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web App"
+      ],
+      "stars": 0,
+      "forks": 2,
+      "updatedAt": "2026-03-23T05:02:08Z",
+      "url": "https://github.com/mvillamante/Avalia",
+      "isExternal": true
     },
     {
       "name": "TwitterClone",
@@ -147,6 +163,22 @@
       "updatedAt": "2026-07-14T00:00:00Z",
       "url": "https://github.com/FHOInfante/Camera-Attendance-App",
       "isExternal": false
+    },
+    {
+      "name": "Avalia",
+      "description": "Avalia is an online cinema ticket booking system that allows users to browse movies, select showtimes, and reserve seats seamlessly. It is designed to provide a convenient and efficient movie booking experience.",
+      "language": "CSS",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web App"
+      ],
+      "stars": 0,
+      "forks": 2,
+      "updatedAt": "2026-03-23T05:02:08Z",
+      "url": "https://github.com/mvillamante/Avalia",
+      "isExternal": true
     },
     {
       "name": "TwitterClone",
